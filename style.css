@@ -1,0 +1,70 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    color: white;
+}
+
+.sub, .add{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: greenyellow;
+    border: none;
+}
+.sub:hover{
+    transform: scale(1.2);
+    background-color: orange;
+    transition: 0.2s;
+}
+.add:hover{
+    transform: scale(1.2);
+    background-color: orange;
+    transition: 0.2s;
+}
+.reset{
+    height: 4rem;
+    width: 7rem;
+    border-radius: 7rem;
+    border: none;
+    font-size: 1.5rem;
+    background-color: yellow;
+    color: red;
+}
+.reset:hover{
+    transform: scale(1.2);
+    /* background-color: orange; */
+    transition: 0.2s;
+}
+h1{
+    text-align: center;
+    /* width: 40%; */
+    font-size: 5rem;
+    font-style: italic;
+    margin: 2rem;
+}
+h2{
+    text-align: center;
+    /* width: 40%; */
+    font-size: 4rem;
+    font-style: italic;
+}
+p{
+    text-align: center;
+    font-size: 4rem;
+    color: yellow;
+    border: 2px solid gold;
+    width: 10rem;
+    display: inline-block;
+    border-radius: 2rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
